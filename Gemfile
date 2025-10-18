@@ -14,6 +14,7 @@ gem "sinatra-activerecord"
 
 gem "http"
 gem "dotenv"
+gem "ai-chat"
 
 group :development do
   gem "better_errors"
