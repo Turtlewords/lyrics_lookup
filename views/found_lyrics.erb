@@ -1,6 +1,6 @@
 <div class="container">
-  <p>Artist: <%= @artist %></p>
-  <p>Title: <%= title %></p>
+  <p>Artist: <%= @artist.capitalize %></p>
+  <p>Title: <%= @title.capitalize %></p>
 
-  <p><%= @data %></p>
+  <p><%= @data.fetch("lyrics") %></p>
 </div>

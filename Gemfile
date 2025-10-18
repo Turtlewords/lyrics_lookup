@@ -16,6 +16,7 @@ gem "http"
 gem "dotenv"
 gem "ai-chat"
 gem 'sinatra-tailwind'
+gem "amazing_print"
 
 group :development do
   gem "better_errors"

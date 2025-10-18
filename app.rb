@@ -2,6 +2,7 @@ require "sinatra"
 require "sinatra/reloader"
 require "http"
 require "dotenv/load"
+require "amazing_print"
 require "ai-chat"
 require 'sinatra/tailwind'
 

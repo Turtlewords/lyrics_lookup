@@ -19,6 +19,7 @@ GEM
       marcel (~> 1.0)
       openai (~> 0.16)
       tty-spinner (~> 0.9.3)
+    amazing_print (2.0.0)
     appdev_support (0.2.1)
       tabulo
     base64 (0.2.0)
@@ -216,6 +217,7 @@ PLATFORMS
 
 DEPENDENCIES
   ai-chat
+  amazing_print
   appdev_support
   better_errors
   binding_of_caller
