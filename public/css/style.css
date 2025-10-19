@@ -45,13 +45,14 @@ a:hover {
   left: 2rem;
   top: 32%;
   font-size: 2rem;
+  color: black;
 }
 
-.link-box {
+.home-box {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  gap: 1rem;
+  gap: 2rem;
   margin-top: 3rem;
 }
 
@@ -59,6 +60,9 @@ a:hover {
   font-size: 3rem;
   padding: 1rem;
   background-color: #ffb703;
+  color: #609FD2;
+  text-align: center;
+  border-radius: 12px;
 }
 
 .search_title_form {
@@ -71,4 +75,39 @@ a:hover {
 
 .search_title_form_section {
   width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+
+}
+
+.form-label {
+  font-size: 1.25rem;
+  flex-basis: 30%;
+  text-align: end;
+}
+
+.form-input {
+  font-size: 1.25rem;
+  padding: .25rem;
+  flex-basis: 70%;
+}
+
+.submit-btn {
+  font-size: 2rem;
+  padding: .75rem;
+  background-color: #ffb703;
+  color: #609FD2;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  opacity: 0.6;
 }
