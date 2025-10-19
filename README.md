@@ -6,4 +6,4 @@ Lyrics lookup is a simple web application that allows users to search for lyrics
 
 From the home page, select "Search by title", or "Search by lyrics."
 
-!["home screen"]("images/lyrics_home.png")
+!["home screen"]("/images/lyrics_home.png")
