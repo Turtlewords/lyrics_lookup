@@ -1,20 +1,7 @@
-# sinatra-template
+# Lyrics Lookup
 
-Use this repository to create new Sinatra apps. 
+Lyrics lookup is a simple web application that allows users to search for lyrics by artist name/song title, or to search for a artist name/song title by a fragment of lyrics.
 
-Optionally, to use `ActiveRecord` for database operations, add to the `app.rb`:
+## Instructions
 
-```ruby
-require "sinatra/activerecord"
-```
-
-And in the `config/environment.rb` file add this code block:
-
-```ruby
-configure do
-  # setup a database connection
-  set(:database, { adapter: "sqlite3", database: "db/development.sqlite3" })
-end
-```
-
-Some rights reserved — see [LICENSE.txt](LICENSE.txt)
+From the home page

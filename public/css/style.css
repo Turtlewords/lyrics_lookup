@@ -33,11 +33,14 @@ a:hover {
 
 .header {
   display: flex;
-  padding: 1rem;
   background-color: #609FD2;
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+.title {
+  font-size: 2.5rem;
 }
 
 .home {
@@ -71,6 +74,13 @@ a:hover {
   padding: 1rem;
   gap: 1rem;
 
+}
+
+.search_lyrics_form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .search_title_form_section {
@@ -110,4 +120,8 @@ a:hover {
 
 .submit-btn:hover {
   opacity: 0.6;
+}
+
+.title-container, .lyrics-container {
+  max-width: 400px;
 }

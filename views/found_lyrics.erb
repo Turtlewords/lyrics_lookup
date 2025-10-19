@@ -1,12 +1,13 @@
-<div class="container">
+<div class="lyrics-container">
   <p>Artist: <%= @artist.capitalize %></p>
   <p>Title: <%= @title.capitalize %></p>
 
   
   <% begin %>
-    <p><%= @data.fetch("lyrics") %></p>
+    <p class="lyrics"><%= @data.fetch("lyrics") %></p>
   <% rescue %>
     <p>Could not locate a song with that artist/title combination.</p>
     <p>Please <a href="/search_by_title">try again.</a></p>
   <% end %>
+  <a href="/search_by_title">Search again?</a>
 </div>
