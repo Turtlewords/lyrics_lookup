@@ -26,7 +26,7 @@ get("/found_lyrics") do
    @title = params.fetch("title")
 
    response = HTTP.get("https://api.lyrics.ovh/v1/#{@artist}/#{@title}")
-
+   
    @data = JSON.parse(response)
 
   erb(:found_lyrics)

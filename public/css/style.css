@@ -41,6 +41,7 @@ a:hover {
 
 .title {
   font-size: 2.5rem;
+  text-shadow: 1px 1px 1px whitesmoke;
 }
 
 .home {
@@ -49,6 +50,10 @@ a:hover {
   top: 32%;
   font-size: 2rem;
   color: black;
+}
+
+.white-link {
+  color: whitesmoke;
 }
 
 .home-box {
@@ -62,10 +67,11 @@ a:hover {
 .home-search {
   font-size: 3rem;
   padding: 1rem;
-  background-color: #ffb703;
-  color: #609FD2;
+  background-color: whitesmoke;
+  color: black;
   text-align: center;
   border-radius: 12px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .search_title_form {
@@ -111,11 +117,12 @@ a:hover {
 .submit-btn {
   font-size: 2rem;
   padding: .75rem;
-  background-color: #ffb703;
-  color: #609FD2;
+  background-color: whitesmoke;
+  color: black;
   text-align: center;
   border-radius: 12px;
   cursor: pointer;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .submit-btn:hover {
