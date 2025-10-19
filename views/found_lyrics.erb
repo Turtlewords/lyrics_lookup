@@ -6,7 +6,7 @@
   <% begin %>
     <p><%= @data.fetch("lyrics") %></p>
   <% rescue %>
-    <p>Could not locate song with that artist/title combination.</p>
+    <p>Could not locate a song with that artist/title combination.</p>
     <p>Please <a href="/search_by_title">try again.</a></p>
   <% end %>
 </div>
