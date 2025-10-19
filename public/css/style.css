@@ -55,3 +55,15 @@ a:hover {
   gap: 1rem;
   margin-top: 3rem;
 }
+
+.search_title_form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+
+}
+
+.search_title_form_section {
+  width: 100%;
+}
