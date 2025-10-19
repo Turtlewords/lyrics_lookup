@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "tailwindcss": "^4.1.14"
+    "@tailwindcss/cli": "^4.1.14"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
-    "autoprefixer": "^10.4.21"
+    "tailwindcss": "^4.1.14"
   },
   "scripts": {
-    "build:css": "tailwindcss -i ./public/css/application.css -o ./public/css/application.min.css --minify"
+    "build:tailwind": "tailwindcss -i ./public/css/input.css -o ./public/css/output.css",
+      "watch:tailwind": "tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch"
   }
 }
