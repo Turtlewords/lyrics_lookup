@@ -1,7 +1,57 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.roboto-san {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 body {
-  background-color: #609FD2;
+  background-color: #A0C5E4;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 10rem;
+}
+
+a {
+  font-size: 2rem;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  opacity: 0.6;
 }
 
 .header {
   display: flex;
+  padding: 1rem;
+  background-color: #609FD2;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.home {
+  position: absolute;
+  left: 2rem;
+  top: 32%;
+}
+
+.link-box {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  margin-top: 3rem;
 }
