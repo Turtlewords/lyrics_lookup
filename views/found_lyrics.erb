@@ -7,7 +7,7 @@
     <p class="lyrics"><%= @data.fetch("lyrics").gsub("\n", "<br>") %></p>
   <% rescue %>
     <p>Could not locate a song with that artist/title combination.</p>
-    <p>Please <a href="/search_by_title">try again.</a></p>
+    <p>Please <a class="white-link" href="/search_by_title">try again.</a></p>
   <% end %>
   <a class="white-link" href="/search_by_title">Search again?</a>
 </div>
